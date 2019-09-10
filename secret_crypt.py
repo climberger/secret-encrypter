@@ -84,7 +84,6 @@ def create_store():
     write_salt_to_file(salt, 'salt.slt')
     password = input('Choose a password:')
     key = get_key_from_password(password, salt)
-    print(key)
     store_dict = {}
     store_store(key, store_dict)
 
