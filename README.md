@@ -15,3 +15,7 @@ This is a program to encrypt the values of several key-value pairs
 * Create store from JSON object
 * Better handling of the salt
 * Provide password only once to start program
+
+# Make it executable
+* An .exe file can be generated with auto-py-to-exe
+* https://pypi.org/project/auto-py-to-exe/
