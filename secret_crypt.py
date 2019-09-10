@@ -144,7 +144,7 @@ def handle_command():
     args = sys.argv
     if len(args) == 2 and args[1] == 'create-store':
         create_store()
-    if len(args) == 2 and args[1] == 'list-resources':
+    if len(args) == 2 and args[1] == 'list-secrets':
         get_resource_names()
     if len(args) == 3 and args[1] == 'get':
         value = get_store_value(args[2])
