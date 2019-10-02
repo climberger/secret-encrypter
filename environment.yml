@@ -1,0 +1,23 @@
+name: Python_3.7_Crypt
+channels:
+  - defaults
+dependencies:
+  - asn1crypto=0.24.0=py37_0
+  - ca-certificates=2019.8.28=0
+  - certifi=2019.9.11=py37_0
+  - cffi=1.12.3=py37h7a1dbc1_0
+  - cryptography=2.7=py37h7a1dbc1_0
+  - idna=2.8=py37_0
+  - openssl=1.1.1d=he774522_2
+  - pip=19.2.3=py37_0
+  - pycparser=2.19=py37_0
+  - python=3.7.4=h5263a28_0
+  - setuptools=41.2.0=py37_0
+  - six=1.12.0=py37_0
+  - sqlite=3.29.0=he774522_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.16.27012=hf0eaf9b_0
+  - wheel=0.33.6=py37_0
+  - wincertstore=0.2=py37_0
+prefix: C:\Users\<user>\Anaconda3\envs\Python_3.7_Crypt
+

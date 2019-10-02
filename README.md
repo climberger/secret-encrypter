@@ -19,3 +19,10 @@ This is a program to encrypt the values of several key-value pairs
 # Make it executable
 * An .exe file can be generated with auto-py-to-exe
 * https://pypi.org/project/auto-py-to-exe/
+
+# Used environment
+* Following packages have been installed manually for the anaconda environment (The other packages are implicit dependencies):
+    * Cryptography  
+* An anaconda environment has been used for this project. A related environment.yml file is located in the project directory. Create conda environment with following command:
+<br>`conda env create -n <environmentName> -f environment.yml`
+* You might need to change the prefix entry within the environment file to specify the location for the environment
